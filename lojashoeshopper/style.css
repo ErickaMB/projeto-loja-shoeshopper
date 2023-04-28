@@ -1,0 +1,39 @@
+body{
+    font-family: lato, arial, verdana, lucida console;
+}
+.carousel-caption h5{
+    font-size: 80px;
+    text-shadow: 2px 2px 2px grey;
+    text-align: center;
+}
+.carousel-caption p{
+    font-size: 30px;
+    text-align: center;
+}
+.navbar-collapse{
+    display: flex;
+    position: absolute;
+    left: 30%;   
+}
+.nossotime img{
+    border-radius: 200px; 
+    width: 200px;
+    height: 200px;
+}
+.card-body{
+    align-items: center;
+}
+.produtos img{
+    height: 250px;
+}
+a {
+    color: #E59292;
+    text-decoration: underline;
+    transition: all .1s;
+}
+a:hover {
+    text-decoration: none;
+    -webkit-text-stroke: 1px #E59292; 
+    transition-timing-function: ease-in-out;
+}
+
